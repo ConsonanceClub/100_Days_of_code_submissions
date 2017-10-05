@@ -1,6 +1,6 @@
 # 100_Days_of_code_submissions
 
-This repo contains participants code snippets in the Consonance's 100 Days of Code Challenge.
+This repo contains participants solutions to the daily tasks in Consonance's 100 Days of Code Challenge.
 
 In order to follow
 
