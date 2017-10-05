@@ -1,6 +1,6 @@
 # 100_Days_of_code_submissions
 
-This repo contains participants solutions to the daily tasks in Consonance's 100 Days of Code Challenge.
+This repo contains participants code snippets in the Consonance's 100 Days of Code Challenge.
 
 In order to follow
 
@@ -12,6 +12,6 @@ In order to follow
 
 - Navigate back to the "100_Days_of_code" repository.
 
-- Start a pull request. Your pull request will be merged.
+- Start a pull request
 
 
