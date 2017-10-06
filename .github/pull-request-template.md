@@ -16,5 +16,4 @@ You can find complete details in the submission instructions for each module.
 ## Labels - DELETE THIS SECTION AFTER COMPLETING
 
 Apply the following labels:
-- Module number.
 - What is it? Application, bug, submission or feature request.
