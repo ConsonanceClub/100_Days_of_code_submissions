@@ -1,8 +1,8 @@
 # Welcome to Consonance 100 Days of code Challenge 🚩
 
-This README explains how to get started with the 100 Days of Code challenge, and how to become take part in it. By participating in the Campus Expert program, you are to abide by the [code of conduct](./.github/CODE_OF_CONDUCT.md).
+This README explains how to get started with the 100 Days of Code challenge, and how to become take part in it. By participating in the **100  Days of Code Challenge**, you are to abide by the [code of conduct](./.github/CODE_OF_CONDUCT.md).
 
-**PRO-TIP** please check the [our guide](./.github/guildlines.md) on taking part in this
+**PRO-TIP** please check [our guide](./.github/guildlines.md) on taking part in this
 
 # How To Get Started
 
@@ -20,7 +20,7 @@ This README explains how to get started with the 100 Days of Code challenge, and
 
 - The Daily tasks are found in [DAILY_TASKS.md](DAILY_TASKS.md). look through the file and solve each one of them.
 
-- Start a [pull request](./.github/pull-request-template.md) following the coe of template given.
+- Start a [pull request](./.github/pull-request-template.md) following the template given.
 
 
 # Keeping your Fork in Sync
