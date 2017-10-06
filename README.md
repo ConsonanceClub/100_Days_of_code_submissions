@@ -1,6 +1,6 @@
 # Welcome to Consonance 100 Days of code Challenge 🚩
 
-This README explains how to get started with the 100 Days of Code challenge, and how to become take part in it. By participating in the Campus Expert program, you are to abide by the [code of conduct](./.github/CODE_OF_CONDUCT.md).
+This README explains how to get started with the 100 Days of Code challenge, and how to become take part in it. By participating in the 100 Days of Code challenge, you are to abide by the [code of conduct](./.github/CODE_OF_CONDUCT.md).
 
 **PRO-TIP** please check the [our guide](./.github/guildlines.md) on taking part in this
 
