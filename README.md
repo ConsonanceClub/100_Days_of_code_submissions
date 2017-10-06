@@ -8,7 +8,9 @@ In order to follow
 
 - In your fork, in the "submissions" directory, create a new directory  whose name is YOUR GITHUB USERNAME.
 
-- In this directory, create a new file with the solution of each challenge daily. Example: Day_1_solution.py
+- The Daily tasks are found in DAILY_TASKS.md
+
+- In this directory, create a new file with the solution of each daily task. Example: Day_1_solution.py
 
 - Navigate back to the "100_Days_of_code" repository.
 
