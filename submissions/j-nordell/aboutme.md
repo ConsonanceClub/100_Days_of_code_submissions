@@ -17,12 +17,12 @@
     - SQL
     - XML
 
-## Coding education
-
 The vast majority of my programming education is from [Treehouse](https://teamtreehouse.com/)
 My Treehouse profile is here:  https://teamtreehouse.com/jennifernordell
 
-# Some places you can find me:
+---
+
+## Some places you can find me:
 
 - [GitHub](https://github.com/j-nordell)
 - [LinkedIn](www.linkedin.com/in/jnordell)
