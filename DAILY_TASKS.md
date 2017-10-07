@@ -15,6 +15,7 @@ Fork the 100 days of code repo, add an aboutme.md file as written in the README.
 Kindly add Day 1 and Day 2 submissions if you have completed it.
 
 Resources to getting started with Git and Github
+
 https://guides.github.com/activities/hello-world/
 
 https://try.github.io/levels/1/challenges/1
