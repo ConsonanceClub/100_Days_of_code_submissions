@@ -1,1 +1,25 @@
 .DS_Store
+**/vendor/
+vendor/
+
+# IDE Files
+#-------------------------
+**/nbproject/
+nbproject/
+**/.idea
+.idea/
+
+# Sublime Text cache files
+#-------------------------
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+#---------------------------------
+assets/scss/*
+
+# Get rid of any .map file
+#--------------------------
+*.map
