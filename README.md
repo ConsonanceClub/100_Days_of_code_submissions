@@ -22,6 +22,10 @@ This README explains how to get started with the 100 Days of Code challenge, and
 
 - Start a [pull request](./.github/pull-request-template.md) following the template given.
 
+# Overview f submission structure
+
+![Folder Structure](submission.jpg)
+
 
 # Keeping your Fork in Sync
 
