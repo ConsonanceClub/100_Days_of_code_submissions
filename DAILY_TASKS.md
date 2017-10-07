@@ -23,3 +23,8 @@ https://try.github.io/levels/1/challenges/1
 https://www.codecademy.com/learn/learn-git
 
 If you have any issues in this task , kindly relay them in the #100daysofcodehelp channel on slack for support
+
+
+### *Day 4: Check if Palindrome*
+
+Check if the string entered by a user is a palindrome. That is that it reads the same forwards as backwards like “racecar” or yesterday => "7102017".
