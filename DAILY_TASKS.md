@@ -16,7 +16,9 @@ Kindly add Day 1 and Day 2 submissions if you have completed it.
 
 Resources to getting started with Git and Github
 https://guides.github.com/activities/hello-world/
+
 https://try.github.io/levels/1/challenges/1
+
 https://www.codecademy.com/learn/learn-git
 
 If you have any issues in this task , kindly relay them in the #100daysofcodehelp channel on slack for support
