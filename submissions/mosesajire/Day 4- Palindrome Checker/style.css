@@ -1,0 +1,50 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+}
+#container {
+    width: 400px;
+    min-height: 420px;
+    background-color: #F1F6FB;
+    border-radius: 10px;
+    margin: auto;
+}
+
+#result {
+    background-color: #F0F0F0;
+    clear: left;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.welcome {
+    margin: 10px;
+    background-color: white;
+    padding: 5px;
+}
+
+.title {
+    font-size: 20px;
+    background-color: #D3DCE3;
+    text-align: center;
+    color: green;
+    font-family: georgia, serif;
+}
+.form {
+    padding: 10px;
+}
+.button {
+    font-size: 16px;
+    margin: 10px;
+    float: left;
+    position: relative;
+}
+.refresh {
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid green;
+    font-size: 16px;
+    padding: 2px;
+    border-radius: 5px;
+    color: green;
+}
