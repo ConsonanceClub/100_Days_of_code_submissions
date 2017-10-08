@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>Guess my number!</title>
+</head>
+
+<body onload="return clearStorage()" class="flex-container">
+  <div>
+    <h1>Pick a number from 0 - 9</h1>
+    <form onsubmit="return guessMyNumber()" class="text-center">
+      <input type="number" name="myNumber" id="userInput" />
+      <button>Submit</button>
+    </form>
+  </div>
+
+  <script src="./guessMyNumber.js"></script>
+</body>
+
+</html>
