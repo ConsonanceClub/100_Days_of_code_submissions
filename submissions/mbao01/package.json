@@ -1,0 +1,15 @@
+{
+  "name": "mbao01",
+  "version": "1.0.0",
+  "description": "ConsonanceNG 100DaysOfCode submissions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bakare Ayomide O",
+  "license": "MIT",
+  "dependencies": {
+    "events": "^1.1.1",
+    "readline-sync": "^1.4.7"
+  }
+}
