@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Guess The Number</title>
+    <script type="text/javascript">
+      function fun(){
+        var answer = Math.floor(Math.random()*100);
+        console.log(answer);
+
+        var choices = 10;
+
+        document.getElementById("check").addEventListener("click", function(){
+          console.log("in");
+          var guess = document.getElementById("guessNumber").value;
+          var message = document.getElementById("message");
+
+          if(choices > 0){
+            console.log("insode " + choices + guess);
+            switch (true) {
+              case guess>answer:
+                message.innerHTML = "Guess is High !! Guess Failed !!! Choices left are " + choices;
+                break;
+              case guess<answer:
+                message.innerHTML = "Guess is Low !! Guess Failed !!! Choices left are " + choices;
+                  break;
+              case guess == answer:
+                  message.innerHTML = "Awesome !!";
+                  choices = 0;
+                  break;
+            }
+            choices--;
+          }
+        });
+      }
+    </script>
+  </head>
+  <body onload="fun()">
+    <input type="number" id="guessNumber">
+    <button type="button" id="check">Check</button>
+    <div id="message"></div>
+  </body>
+</html>
