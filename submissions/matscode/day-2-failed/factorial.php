@@ -15,7 +15,7 @@ function loopFactorial( $number )
 
 function recursiveFactorial( $number )
 {
-	if ( $number < 1 ) {
+	if ( ! is_numeric( $number ) || $number < 1 ) {
 		return 1;
 	}
 
@@ -25,12 +25,11 @@ function recursiveFactorial( $number )
 }
 
 // get user input
-$userNumber = ( @$_GET['number'] | 1 );
+$userNumber = (int) ( @$_GET['number'] | '1' );
 
-// show input
-echo '<form><input name="number" placeholder="Number"><input type="submit" value="Guess"></form>';
-
-// calculate factorial
 echo
+	// request input
+	'<form><input name="number" placeholder="Number" value="' . $userNumber . '"><input type="submit" value="Guess"></form>',
+	// calculate factorial
 	'<h5> Loopy Factorial of ' . $userNumber . ' =>  ' . loopFactorial( $userNumber ) . ' </h5>',
 	'<h5> Recursively Factorial of ' . $userNumber . ' =>  ' . recursiveFactorial( $userNumber ) . ' </h5>';
