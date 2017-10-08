@@ -29,7 +29,7 @@ $userNumber = (int) ( @$_GET['number'] | '1' );
 
 echo
 	// request input
-	'<form><input name="number" placeholder="Number" value="' . $userNumber . '"><input type="submit" value="Guess"></form>',
+	'<form><input name="number" placeholder="Number" value="' . $userNumber . '"><input type="submit" value="Factorate"></form>',
 	// calculate factorial
 	'<h5> Loopy Factorial of ' . $userNumber . ' =>  ' . loopFactorial( $userNumber ) . ' </h5>',
 	'<h5> Recursively Factorial of ' . $userNumber . ' =>  ' . recursiveFactorial( $userNumber ) . ' </h5>';
