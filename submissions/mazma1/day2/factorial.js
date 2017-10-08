@@ -26,6 +26,7 @@ function loopFactorial(number) {
   return factorial;
 }
 
-factorial(4);
-loopFactorial(3);
-
+function findFactorial(input) {
+  document.getElementById('factorial').innerHTML = factorial(input);
+  return false;
+}
