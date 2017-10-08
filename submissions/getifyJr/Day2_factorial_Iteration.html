@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Factorial</title>
+    <script type="text/javascript">
+      function fun(){
+        document.getElementById("factorial").addEventListener("click", function(){
+          var number = document.getElementById("number").value;
+          var fact = 1;
+
+          while(number>0){
+            console.log(number + fact);
+            fact = fact * number;
+            number--;
+          }
+          document.getElementById("message").innerHTML = fact;
+        });
+      }
+    </script>
+
+  </head>
+  <body onload="fun()">
+    <input type="number" id="number">
+    <button type="button" id="factorial">Factorial !!</button>
+    <div id="message"></div>
+  </body>
+</html>
