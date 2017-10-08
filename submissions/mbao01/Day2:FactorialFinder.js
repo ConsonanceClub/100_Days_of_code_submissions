@@ -1,6 +1,6 @@
 /*
  Code in JavaScript (Node.js 8.6.0)
- RUN:    node Day1:GuessMyNumber.js
+ RUN:    node Day2:FactorialFinder.js
  */
 
 // Loops
