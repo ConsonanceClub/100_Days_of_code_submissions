@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>100DaysOfCode</title>
+	</head>
+	<body>
+
+		<div class="nothin">
+			<form id="user_input" method="post">
+				<span class="label label-default">User Input</span>
+				<input type="text" id="user_i1" value="" placeholder="Input Your Value">
+				<span id="printHere">Status</span>
+				<button type="button" id="day1" name="button">Day 1</button>
+				<button type="button" id="day2" name="button">Day 2</button>
+				<button type="button" id="day4" name="button">Day 4</button>
+			</form>
+		</div>
+		<script type="text/javascript">
+		//day 1
+var formsHere = document.getElementById('day1')
+var printHere = document.getElementById('printHere')
+var randGot
+
+var incr
+incr = 0
+formsHere.addEventListener("click", function () {
+	var numB = document.getElementById('user_i1').value
+	randGot = Math.floor(Math.random() * 20);
+	if (randGot > numB) {
+		incr++;
+		printHere.innerHTML = "This is too much " + incr;
+		randGot = Math.floor(Math.random() * 20);
+	} else if (randGot < numB) {
+		--incr ;
+		printHere.innerHTML = "This is too low " + incr;
+		randGot = Math.floor(Math.random() * 20);
+	} else {
+		printHere.innerHTML = "this is okay = " + randGot;
+	}
+})
+
+// day 2 here
+var day2 = document.getElementById('day2')
+day2.addEventListener('click', function factorial() {
+	var numB = document.getElementById('user_i1').value
+	if (numB == 0) {
+		printHere.innerHTMLm= 1
+	} else {
+		printHere.innerHTML = numB * factorial(numB - 1);
+	}
+})
+
+// day 3
+// Using git to push and send a PR that done
+// Now Day 4 sound more like a magical issue but we shall see
+//
+// Day 4
+var day4 = document.getElementById('day4');
+
+day4.addEventListener('click', function () {
+	var numB = document.getElementById('user_i1').value
+	if (numB.length !== 0) {	
+		var wrd = numB.split('').reverse().join('')
+
+		if (numB === wrd) {
+			printHere.innerHTML = "Palindrome Checked";
+		} else {
+			printHere.innerHTML = numB;
+		}
+	}
+
+
+})
+
+		</script>
+	</body>
+</html>
