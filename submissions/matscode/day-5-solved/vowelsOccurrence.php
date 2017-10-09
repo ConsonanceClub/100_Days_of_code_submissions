@@ -18,6 +18,16 @@ function vowelsOccurrence( $phrase )
 		} ) );
 }
 
+function loopyVowelsOccurrence( $phrase )
+{
+	$vowelCount = 0;
+	$vowels     = [ 'a', 'e', 'i', 'o', 'u' ];
+	foreach ( str_split( $phrase ) as $char ) {
+		if (in_array( $char, $vowels)) $vowelCount++;
+	}
+	return $vowelCount;
+}
+
 // get user input
 $userWord         = ( @$_GET['testWord'] );
 $vowelsOccurrence = vowelsOccurrence( $userWord );
