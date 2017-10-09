@@ -1,7 +1,7 @@
 def get_input():
     try:
         user_input = int(input("Please enter a value: "))
-    except:
+    except ValueError:
         print("Invalid input.\n")
         get_input()
     else:

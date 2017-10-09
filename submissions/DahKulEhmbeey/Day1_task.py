@@ -1,5 +1,7 @@
 import random
-num_generated = random.randint(1, 10)
+
+rand_number = random.randint(1, 10) * 10
+num_generated = random.randint(1, rand_number)
 counter = 0
 
 
@@ -38,5 +40,5 @@ def check_guess(user_input):
         get_input()
 
 
-print("Guess My Number game.\n")
+print("Guess My Number game.\nThe number is between 1 and {}\n".format(rand_number))
 get_input()
