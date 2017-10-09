@@ -13,18 +13,19 @@
 				<span id="printHere">Status</span>
 				<button type="button" id="day1" name="button">Day 1</button>
 				<button type="button" id="day2" name="button">Day 2</button>
+				<button type="button" id="day4" name="button">Day 4</button>
 			</form>
 		</div>
 		<script type="text/javascript">
 		//day 1
 var formsHere = document.getElementById('day1')
-var numB = document.getElementById('user_i1').value
 var printHere = document.getElementById('printHere')
 var randGot
 
 var incr
 incr = 0
 formsHere.addEventListener("click", function () {
+	var numB = document.getElementById('user_i1').value
 	randGot = Math.floor(Math.random() * 20);
 	if (randGot > numB) {
 		incr++;
@@ -41,13 +42,15 @@ formsHere.addEventListener("click", function () {
 
 // day 2 here
 var day2 = document.getElementById('day2')
-day2.addEventListener('click', function factorial(numB) {
+day2.addEventListener('click', function factorial() {
+	var numB = document.getElementById('user_i1').value
 	if (numB == 0) {
 		printHere.innerHTMLm= 1
 	} else {
 		printHere.innerHTML = numB * factorial(numB - 1);
 	}
 })
+
 		</script>
 	</body>
 </html>
