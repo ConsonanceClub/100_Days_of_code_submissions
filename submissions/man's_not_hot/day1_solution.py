@@ -1,2 +1,0 @@
-#Guessing number solution
-
