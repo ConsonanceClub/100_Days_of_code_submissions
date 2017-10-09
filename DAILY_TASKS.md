@@ -32,3 +32,8 @@ Check if the string entered by a user is a palindrome. That is that it reads the
 ### *Day 5: Count Vowels*
 
 Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found in a long text.
+
+### *Day 6: Count Letters in a Speech*
+
+Attached is a text file containing the farewell speech of Barack Obama. The function should read content from the file, count and record all letters of the alphabet present. Output should be like => a: 20, b: 10, ...z: 5. It should also be case insensitive i.e 'a' == 'A'.
+Link for the text file => http://bit.ly/2yB3keV
