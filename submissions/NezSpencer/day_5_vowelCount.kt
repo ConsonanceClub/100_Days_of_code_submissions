@@ -2,7 +2,9 @@
  * Created by nezspencer on 10/9/17.
  */
 fun main(args: Array<String>){
-print(vowelCount("aaadjdksddfdf ejddkjm,kzvmviopoiujdsjd"))
+    print("Enter text for vowel analysis")
+    val input = readLine()!!.toString()
+    print(vowelCount(input))
 }
 
 fun vowelCount(input: String) :String{
