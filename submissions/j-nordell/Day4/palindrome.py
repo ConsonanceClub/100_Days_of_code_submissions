@@ -1,4 +1,3 @@
-user_text = ""
 user_text = input("Please enter some text: ")
 
 user_text = "".join(user_text.split()).lower()
@@ -10,4 +9,3 @@ if(user_text == reverse_text):
   print("Your string is a palindrome.")
 else:
   print("Your string is NOT a palindrome.")
-  
