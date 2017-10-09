@@ -1,7 +1,7 @@
 # The little I know about Myself
 This is me I have been developing for while now and I love it recently switched to JavaScript and it worth it. Founder of Tech Meet Up Nigeria `Coming Soon`.
 
-I love learning *New Things, Old Things, Just Things and Every Thins* especially when it involves `coding`
+I love learning *New Things, Old Things, Just Things and Every Things* especially when it involves `coding`
 
 My Social Media Links
  - On Twitter [@iNidAName](https://twitter.com/inidaname)
