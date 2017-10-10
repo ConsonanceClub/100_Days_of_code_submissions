@@ -11,20 +11,14 @@
 function vowelsOccurrence( $phrase )
 {
 	preg_match_all( '/(a)?(e)?(i)?(o)?(u)?/i', $phrase, $matches );
-
-	return
-		count( array_filter( $matches[0], function ( $value ) {
+	$vowelCount = [];
+	$keys       = [ 'total', 'a', 'e', 'i', 'o', 'u' ];
+	foreach ( $keys as $k => $v ) {
+		$vowelCount[ $v ] = $v . " \t=> ". count( array_filter( $matches[ $k ], function ( $value ) {
 			if ( $value ) return true;
 		} ) );
-}
-
-function loopyVowelsOccurrence( $phrase )
-{
-	$vowelCount = 0;
-	$vowels     = [ 'a', 'e', 'i', 'o', 'u' ];
-	foreach ( str_split( $phrase ) as $char ) {
-		if (in_array( $char, $vowels)) $vowelCount++;
 	}
+
 	return $vowelCount;
 }
 
@@ -42,6 +36,6 @@ $vowelsOccurrence = vowelsOccurrence( $userWord );
 </form>
 
 <!--// Word Test result-->
-<h5>
-	<?= ( $vowelsOccurrence ) ? 'There are ' . $vowelsOccurrence . ' Vowels in "' . $userWord . '" </pre > ' : ''; ?>
-</h5>
+<div>
+	<?= ( $vowelsOccurrence ) ? 'There are <br> <pre>' . join( "\n", $vowelsOccurrence) . '</pre> Vowels in "' . $userWord . '" ' : ''; ?>
+</div>
