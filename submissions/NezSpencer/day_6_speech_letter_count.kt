@@ -4,7 +4,8 @@
 import java.io.File
 import java.io.InputStream
 fun main(args: Array<String>){
-    countAlphabets(readFileContents("/home/nezspencer/IdeaProjects/100_Days_of_code_submissions/submissions/NezSpencer/obama.txt"))
+    val path = System.getProperty("user.dir")
+    countAlphabets(readFileContents("${path}/obama.txt"))
 }
 fun readFileContents(path: String) :String{
     val inputStream: InputStream = File(path).inputStream()
