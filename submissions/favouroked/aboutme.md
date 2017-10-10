@@ -1,0 +1,1 @@
+My name is Okedele Favour. I am a student of Obafemi Awolowo University, Ile-Ife, Nigeria. I am currently studying Computer Engineering at the university. I code majorly in Python and also in javascript. Interested in web development and bots.
