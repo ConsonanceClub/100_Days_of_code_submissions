@@ -3,7 +3,7 @@
  *
  * @package        100 Days of Code
  * @category       Source
- * @author         Michael Akanji <matscode@gmail.com> {@link michaelakanji.com}
+ * @author         Michael Akanji <matscode@gmail.com> {@link http://michaelakanji.com}
  * @date           2017-10-07
  *
  */
@@ -29,7 +29,7 @@ $userNumber = (int) ( @$_GET['number'] | '1' );
 
 echo
 	// request input
-	'<form><input name="number" placeholder="Number" value="' . $userNumber . '"><input type="submit" value="Guess"></form>',
+	'<form><input name="number" placeholder="Number" value="' . $userNumber . '"><input type="submit" value="Factorate"></form>',
 	// calculate factorial
 	'<h5> Loopy Factorial of ' . $userNumber . ' =>  ' . loopFactorial( $userNumber ) . ' </h5>',
 	'<h5> Recursively Factorial of ' . $userNumber . ' =>  ' . recursiveFactorial( $userNumber ) . ' </h5>';
