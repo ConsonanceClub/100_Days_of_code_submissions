@@ -37,3 +37,9 @@ Enter a string and the program counts the number of vowels in the text. For adde
 
 Attached is a text file containing the farewell speech of Barack Obama. The function should read content from the file, count and record all letters of the alphabet present. Output should be like => a: 20, b: 10, ...z: 5. It should also be case insensitive i.e 'a' == 'A'.
 Link for the text file => http://bit.ly/2yB3keV
+
+### *Day 7: Ordered words*
+
+An ordered word is a word in which the letters appear in
+alphabetic order. Take the user input, and order the letters in the word or
+sentence alphabetically.
