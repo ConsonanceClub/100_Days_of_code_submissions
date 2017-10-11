@@ -74,6 +74,27 @@ day4.addEventListener('click', function () {
 
 })
 
+// day 5 checking the vowels
+var day5 = document.getElementById('day5');
+var cnt;
+cnt = 0
+
+day5.addEventListener('click', function () {
+	var vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'I', 'O', 'U'];
+	var numB = document.getElementById('user_i1').value
+	if (numB.length !== 0) {
+		var wrd = numB.split('')
+		wrd.forEach((item) => {
+			if (vowels.indexOf(item) !== -1) {
+				cnt++
+				printHere.innerHTML = 'The Number of Vowels are ' + cnt;
+			}
+		});
+	}
+
+
+})
+
 		</script>
 	</body>
 </html>
