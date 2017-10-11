@@ -11,25 +11,25 @@
 				<span class="label label-default">User Input</span>
 				<input type="text" id="user_i1" value="" placeholder="Input Your Value">
 				<span id="printHere">Status</span>
-				<button type="button" id="goNode" name="button">Dude</button>
+				<button type="button" id="day1" name="button">Day 1</button>
 			</form>
 		</div>
 		<script type="text/javascript">
-var formsHere = document.getElementById('goNode')
-var max = document.getElementById('user_i1').value
+		//day 1
+var formsHere = document.getElementById('day1')
 var printHere = document.getElementById('printHere')
 var randGot
 
 var incr
 incr = 0
 formsHere.addEventListener("click", function () {
-	console.log(max);
+	var numB = document.getElementById('user_i1').value
 	randGot = Math.floor(Math.random() * 20);
-	if (randGot > max) {
+	if (randGot > numB) {
 		incr++;
 		printHere.innerHTML = "This is too much " + incr;
 		randGot = Math.floor(Math.random() * 20);
-	} else if (randGot < max) {
+	} else if (randGot < numB) {
 		--incr ;
 		printHere.innerHTML = "This is too low " + incr;
 		randGot = Math.floor(Math.random() * 20);
