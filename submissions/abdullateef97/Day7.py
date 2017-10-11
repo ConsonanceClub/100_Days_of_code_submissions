@@ -3,5 +3,5 @@ wordList = list(word.lower());
 wordList.sort()
 
 joinWord = ''.join(wordList)
-print(joinWord)
+print("ordered word is "+joinWord)
 
