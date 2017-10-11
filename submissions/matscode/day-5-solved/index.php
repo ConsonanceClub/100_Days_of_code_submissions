@@ -6,8 +6,8 @@
  * @package        100 Days of Code
  * @category       Source
  * @author         Michael Akanji <matscode@gmail.com> {@link http://michaelakanji.com}
- * @date           2017-10-07
+ * @date           2017-10-09
  *
  */
 
-require 'factorial.php';
+require 'vowelsOccurrence.php';
