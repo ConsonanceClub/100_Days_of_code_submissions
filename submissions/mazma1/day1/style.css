@@ -1,0 +1,24 @@
+body {
+  background-color: whitesmoke
+}
+
+.flex-container {
+  height: 60vh;
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  align-items: center; /* vertical centering */
+} 
+
+.text-center {
+  text-align: center;
+}
+
+input {
+  outline: none;
+  height: 23px;
+  border-radius: 5px;
+}
+
+input.middle:focus {
+  outline-width: 0;
+}
