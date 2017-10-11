@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../day1/style.css">
+  <title>Factorial Finder</title>
+</head>
+
+<body class="flex-container">
+  <div>
+    <h1>Factorial Finder</h1>
+    <form onsubmit="return findFactorial(myNumber.value)" class="text-center">
+      <input type="number" name="myNumber" id="userInput" placeholder="Enter a number..." />
+      <button>Find Factorial</button>
+    </form>
+    <h2 id="factorial"></h2>
+  </div>
+
+  <script src="./factorial.js"></script>
+</body>
+
+</html>
