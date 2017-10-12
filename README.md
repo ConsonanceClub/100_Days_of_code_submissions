@@ -29,4 +29,4 @@ This README explains how to get started with the 100 Days of Code challenge, and
 
 # Keeping your Fork in Sync
 
-As more content is added to this repository and more people contribute, your fork will fall out of date. This can sometimes lead to tricky situations with your pull requests. It's recommended to occasionally sync your fork with this repository. As more content is added to this repository and more people contribute, your fork will fall out of date. This can sometimes lead to tricky situations with your pull requests. It's recommended to occasionally sync your fork with this [repository](https://help.github.com/articles/syncing-a-fork/).
+As more content is added to this repository and more people contribute, your fork will fall out of date. This can sometimes lead to tricky situations with your pull requests. It's recommended to occasionally sync your fork with this [repository](https://help.github.com/articles/syncing-a-fork/).

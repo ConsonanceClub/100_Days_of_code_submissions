@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    //player's input
+    var guess = parseInt(prompt("enter a guess number from 1-10","0"));
+    //computer generates random num from 1-10
+    var random = Math.floor(Math.random()*10);
+    while(guess != random){
+        if (guess > random) {
+            guess = prompt(alert("too high! \nplease try again"),guess);
+        } else{
+            guess = prompt(alert("too low! \nplease try again"),guess);
+        }
+    }
+    alert("congratulations! genius");
+
+</script>
+</body>
+</html>
