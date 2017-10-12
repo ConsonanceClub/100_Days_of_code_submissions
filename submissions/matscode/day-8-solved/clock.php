@@ -7,7 +7,7 @@
  * @package        100 Days of Code
  * @category       Source
  * @author         Michael Akanji <matscode@gmail.com> {@link http://michaelakanji.com}
- * @date           2017-10-11
+ * @date           2017-10-12
  *
  */
 class Clock
@@ -35,7 +35,7 @@ class Clock
 		echo date( 'D M l, Y - <b>H:i:s</b>', $currentTime );
 	}
 
-	function setAlarm( $timeInFuture, $alertSecond = 10 )
+	public function setAlarm( $timeInFuture, $alertSecond = 10 )
 	{
 		$this->alarmTime = strtotime( $timeInFuture );
 
@@ -53,7 +53,7 @@ class Clock
 		// return void
 	}
 
-	function soundAlarm()
+	public function soundAlarm()
 	{
 		// is it time?
 		if ( $this->currentTime > $this->alarmTime && $this->currentTime < $this->notifyEndTime ) {
