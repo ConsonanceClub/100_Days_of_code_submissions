@@ -1,0 +1,9 @@
+/**
+ * Created by nezspencer on 10/11/17.
+ */
+fun main(args: Array<String>){
+    orderWords("a boy told me that i should try to order words")
+}
+fun orderWords(words: String){
+    words.replace(" ","").toList().sorted().map { print(it) }
+}
