@@ -23,7 +23,7 @@ function charsOccurrence( $passage )
 {
 	$charCount  = [];
 	$charString = 'abcdefghijklmnopqrstuvwxyz';
-	$keys       = array_merge( [ 'total' ], str_split( $charString ) );
+	$keys       = array_merge( [ 'words' ], str_split( $charString )) ;
 	$pattern    = '/(a)?(b)?(c)?(d)?(e)?(f)?(g)?(h)?(i)?(j)?(k)?(l)?(m)?(n)?(o)?(p)?(q)?(r)?(s)?(t)?(u)?(v)?(w)?(x)?(y)?(z)?/i';
 
 	// find occurence
@@ -31,10 +31,12 @@ function charsOccurrence( $passage )
 
 	// do counting
 	foreach ( $keys as $k => $v ) {
-		$charCount[ $v ] = $v . " \t=> ". count( array_filter( $matches[ $k ], function ( $value ) {
+		$charCount[ $v ] = count( array_filter( $matches[ $k ], function ( $value ) {
 				if ( $value ) return true;
 			} ) );
 	}
+	unset( $charCount['words']);
+	$charCount['total'] = array_sum($charCount);
 
 	return $charCount;
 }
@@ -45,5 +47,5 @@ $charsOccurrence = charsOccurrence( $fileContent );
 
 <!--// Passage Test result-->
 <div>
-	<?= ( $charsOccurrence ) ? 'There are <br> <pre>' . join( "\n", $charsOccurrence) . '</pre> Characters in the passage' : ''; ?>
+	<?= ( $charsOccurrence ) ? 'There are <br> <pre>' . print_r(  $charsOccurrence, true) . '</pre> Characters in the passage' : ''; ?>
 </div>

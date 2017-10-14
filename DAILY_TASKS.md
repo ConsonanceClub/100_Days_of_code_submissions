@@ -47,3 +47,11 @@ sentence alphabetically.
 ### *Day 8: Alarm Clock*
 
 Alarm Clock - Build a simple clock where it plays a sound after X number of minutes/seconds or at a particular time set.
+
+### *Day 9: Alarm Clock Extended*
+
+Alarm Clock Extended - complete the alarm clock challenge if you haven't .......If you have, try and assist at least two people on the slack team to do so
+
+### *Day 10: Calculator*
+
+Calculator - A simple calculator to do basic operators(addition, subtraction, division, multiplication). Make it a scientific calculator(sin, cos, etc) for added complexity.
