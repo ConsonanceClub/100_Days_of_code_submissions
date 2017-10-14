@@ -43,3 +43,7 @@ Link for the text file => http://bit.ly/2yB3keV
 An ordered word is a word in which the letters appear in
 alphabetic order. Take the user input, and order the letters in the word or
 sentence alphabetically.
+
+### *Day 8: Alarm Clock*
+
+Alarm Clock - Build a simple clock where it plays a sound after X number of minutes/seconds or at a particular time set.
