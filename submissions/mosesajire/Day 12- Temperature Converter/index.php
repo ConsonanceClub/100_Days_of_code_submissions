@@ -35,7 +35,6 @@
                     </td>
                 </tr>
             </table>            
-
             </form>
             
             <div id="result">
