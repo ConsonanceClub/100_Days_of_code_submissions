@@ -95,6 +95,10 @@ function calculateSGPA(results) {
 function main() {
   try {
     let numOfCourses = acceptNumberOfCourses();
+    if(isNaN(numOfCourses)){
+      alert('You didnt Enter a Number');
+      return;
+    }
     let results = acceptCourseUnitAndGrade(numOfCourses);
     let sgpa = calculateSGPA(results);
     sgpa.toFixed(2);
