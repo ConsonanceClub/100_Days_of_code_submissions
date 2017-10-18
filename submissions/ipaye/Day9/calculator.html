@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <style>
+    body {
+      background: pink;
+    }
+
+    .calculator {
+      width: 450px;
+      padding: 20px;
+      border-radius: 5px;
+      margin: 12% 30%;
+      background-color: hsl(0, 0%, 20%);
+    }
+
+    .input {
+      width: 400px;
+      height: 50px;
+      border-radius: 0px;
+      border: 1px solid hsl(0, 0%, 0%);
+      background-color: #333333;
+      color: #d9d9d9;
+      padding: 0 5px 0 5px;
+      margin: 0 0px 10px 0px;
+      font-size: 30px;
+    }
+
+    .button {
+      margin: 3px;
+      width: 63px;
+      border: 1px solid hsl(0, 0%, 5%);
+      height: 25px;
+      border-radius: 4px;
+      color: hsl(0, 0%, 85%);
+      background-color: hsl(0, 0%, 10%);
+      cursor: pointer;
+      outline: none;
+    }
+
+    .basic-mode {
+      width: 415px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
+    .complex-mode {
+      width: 415px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .equal-sign {
+      background-color: hsl(120, 100%, 25%);
+      width: 133px;
+    }.toggle-button p{
+      color: white;
+    }
+
+    .toggle-button {
+      border: none;
+      background-color: hsl(0, 0%, 20%);
+      cursor: pointer;
+      outline: none;
+    }
+
+    #app {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    button::-moz-focus-inner {
+      border-color: transparent;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="calculator">
+    <div id="app">
+      <button class="toggle-button" v-on:click="changeMode = !changeMode">
+        <p v-show="changeMode">Show Advanced Mode &nbsp; &nbsp; &#9864;</p>
+        <p v-show="!changeMode">Show Basic Mode &nbsp; &nbsp; &#9862;</p>
+
+      </button>
+      <div class="results">
+        <input class="input" v-model="current">
+      </div>
+      <div class="basic-mode" v-show="changeMode">
+        <button class="button" v-on:click="press">7</button>
+        <button class="button" v-on:click="press">8</button>
+        <button class="button" v-on:click="press">9</button>
+        <button class="button" v-on:click="press">*</button>
+        <button class="button" v-on:click="press">&#60;=</button>
+        <button class="button" v-on:click="press">C</button>
+        <button class="button" v-on:click="press">4</button>
+        <button class="button" v-on:click="press">5</button>
+        <button class="button" v-on:click="press">6</button>
+        <button class="button" v-on:click="press">/</button>
+        <button class="button" v-on:click="press">(</button>
+        <button class="button" v-on:click="press">)</button>
+        <button class="button" v-on:click="press">1</button>
+        <button class="button" v-on:click="press">2</button>
+        <button class="button" v-on:click="press">3</button>
+        <button class="button" v-on:click="press">-</button>
+        <button class="button" v-on:click="press">x ²</button>
+        <button class="button" v-on:click="press">±</button>
+        <button class="button" v-on:click="press">0</button>
+        <button class="button" v-on:click="press">.</button>
+        <button class="button" v-on:click="press">%</button>
+        <button class="button" v-on:click="press">+</button>
+        <button class="button equal-sign" v-on:click="press">=</button>
+      </div>
+
+      <div class="complex-mode" v-show="!changeMode">
+        <button class="button" v-on:click="press">sin</button>
+        <button class="button" v-on:click="press">cos</button>
+        <button class="button" v-on:click="press">tan</button>
+        <button class="button" v-on:click="press">x^</button>
+        <button class="button" v-on:click="press">&#60;=</button>
+        <button class="button" v-on:click="press">C</button>
+        <button class="button" v-on:click="press">log</button>
+        <button class="button" v-on:click="press">ln</button>
+        <button class="button" v-on:click="press">e</button>
+        <button class="button" v-on:click="press">∘</button>
+        <button class="button" v-on:click="press">rad</button>
+        <button class="button" v-on:click="press">√</button>
+        <button class="button" v-on:click="press">7</button>
+        <button class="button" v-on:click="press">8 </button>
+        <button class="button" v-on:click="press">9</button>
+        <button class="button" v-on:click="press">/</button>
+        <button class="button" v-on:click="press">x ²</button>
+        <button class="button" v-on:click="press">x !</button>
+        <button class="button" v-on:click="press">4</button>
+        <button class="button" v-on:click="press">5</button>
+        <button class="button" v-on:click="press">6</button>
+        <button class="button" v-on:click="press">*</button>
+        <button class="button" v-on:click="press">(</button>
+        <button class="button" v-on:click="press">)</button>
+        <button class="button" v-on:click="press">1</button>
+        <button class="button" v-on:click="press">2</button>
+        <button class="button" v-on:click="press">3</button>
+        <button class="button" v-on:click="press">-</button>
+        <button class="button" v-on:click="press">%</button>
+        <button class="button" v-on:click="press">±</button>
+        <button class="button" v-on:click="press">0</button>
+        <button class="button" v-on:click="press">.</button>
+        <button class="button" v-on:click="press">&#x003C0;</button>
+        <button class="button" v-on:click="press">+</button>
+        <button class="button equal-sign">=</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/vue"></script>
+  <script>
+    var app = new Vue({
+      // element property which points to the DOM
+      el: "#app",
+      data: {
+        //the data we'll use in
+        //building our app goes in here
+        "current": '',
+        changeMode: true
+
+      },
+      methods: {
+        // the functions we'll use in 
+        // controlling our app go in here
+        press: function (event) {
+          //we make a reference to the inner text
+          // of each button to dispatch our functions
+          let key = event.target.innerText;
+          if (key != "=" &&
+            key != "C" &&
+            key != "*" &&
+            key != "/" &&
+            key != "√" &&
+            key != "x ²" &&
+            key != "%" &&
+            key != "<=" &&
+            key != "±" &&
+            key != "sin" &&
+            key != "cos" &&
+            key != "tan" &&
+            key != "log" &&
+            key != "ln" &&
+            key != "x^" &&
+            key != "x !" &&
+            key != "π" &&
+            key != "e" &&
+            key != "rad" &&
+            key != "∘") {
+            app.current += key;
+          } else if (key === "=") {
+            equals();
+          } else if (key === "C") {
+            clear();
+          } else if (key === "*") {
+            multiply();
+          } else if (key === "/") {
+            divide();
+          } else if (key === "+") {
+            plus();
+          } else if (key === "-") {
+            minus();
+          } else if (key === "±") {
+            plusMinus();
+          } else if (key === "<=") {
+            backspace();
+          } else if (key === "%") {
+            percent();
+          } else if (key === "π") {
+            pi();
+          } else if (key === "x ²") {
+            square();
+          } else if (key === "√") {
+            squareRoot();
+          } else if (key === "sin") {
+            sin();
+          } else if (key === "cos") {
+            cos();
+          } else if (key === "tan") {
+            tan();
+          } else if (key === "log") {
+            log();
+          } else if (key === "ln") {
+            ln();
+          } else if (key === "x^") {
+            exponent();
+          } else if (key === "x !") {
+            factorial();
+          } else if (key === "e") {
+            exp();
+          } else if (key === "rad") {
+            radians();
+          } else if (key === "∘") {
+            degrees();
+          }
+        },
+      }
+    });
+
+
+    // our '=' button
+    function equals() {
+      if ((app.current).indexOf("^") > -1) {
+        var base = (app.current).slice(0, (app.current).indexOf("^"));
+        var exponent = (app.current).slice((app.current).indexOf("^") + 1);
+        app.current = eval("Math.pow(" + base + "," + exponent + ")");
+      } else {
+        app.current = eval(app.current)
+      }
+    }
+
+    // our 'C' button
+    function clear() {
+      app.current = "";
+    }
+
+    // our '<=' button
+    function backspace() {
+      app.current = app.current.substring(0, app.current.length - 1);
+    }
+
+    // our '*' button
+    function multiply() {
+      app.current += "*";
+    }
+
+    // our '/' button
+    function divide() {
+      app.current += "/";
+    }
+
+    // our '+' button
+    function plus() {
+      app.current += "+";
+    }
+
+    // our '-' button
+    function minus() {
+      app.current += "-";
+    }
+
+    // our '±' button
+    function plusMinus() {
+      if (app.current.charAt(0) === "-") {
+        app.current = app.current.slice(1);
+      } else {
+        app.current = "-" + app.current;
+      }
+    }
+
+    // our 'x!' button
+    function factorial() {
+      var number = 1;
+      if (app.current === 0) {
+        app.current = "1";
+      } else if (app.current < 0) {
+        app.current = NaN;
+      } else {
+        var number = 1;
+        for (var i = app.current; i > 0; i--) {
+          number *= i;
+        }
+        app.current = number;
+      }
+    }
+
+    // our 'π' button
+    function pi() {
+      app.current = (app.current * Math.PI);
+    }
+
+    // our 'x ²' button
+    function square() {
+      app.current = eval(app.current * app.current);
+    }
+
+    // our '√' button
+    function squareRoot() {
+      app.current = Math.sqrt(app.current);
+    }
+
+    // our '%' button
+    function percent() {
+      app.current = app.current / 100;
+    }
+
+    // our 'sin' button
+    function sin() {
+      app.current = Math.sin(app.current);
+    }
+
+    // our 'cos' button
+    function cos() {
+      app.current = Math.cos(app.current);
+    }
+
+    // our 'tan' button
+    function tan() {
+      app.current = Math.tan(app.current);
+    }
+
+    // our 'log' button
+    function log() {
+      app.current = Math.log10(app.current);
+    }
+
+    // our 'ln' button
+    function ln() {
+      app.current = Math.log(app.current);
+    }
+
+    // our 'X^' button
+    function exponent() {
+      app.current += "^";
+    }
+
+    // our 'exp' button
+    function exp() {
+      app.current = Math.exp(app.current);
+    }
+
+    // our 'rad' button
+    function radians() {
+      app.current = app.current * (Math.PI / 180);
+    }
+
+    // our '∘' button
+    function degrees() {
+      app.current = app.current * (180 / Math.PI);
+    }
+  </script>
+</body>
+
+</html>

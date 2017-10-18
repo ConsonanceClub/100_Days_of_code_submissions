@@ -14,6 +14,7 @@
 				<button type="button" id="day1" name="button">Day 1</button>
 				<button type="button" id="day2" name="button">Day 2</button>
 				<button type="button" id="day4" name="button">Day 4</button>
+				<button type="button" id="day5" name="button">Day 5</button>
 			</form>
 		</div>
 		<script type="text/javascript">
@@ -60,7 +61,7 @@ var day4 = document.getElementById('day4');
 
 day4.addEventListener('click', function () {
 	var numB = document.getElementById('user_i1').value
-	if (numB.length !== 0) {	
+	if (numB.length !== 0) {
 		var wrd = numB.split('').reverse().join('')
 
 		if (numB === wrd) {

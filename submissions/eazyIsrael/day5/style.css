@@ -1,0 +1,33 @@
+*{box-sizing:border-box;font-family: sans-serif;}
+h2,strong{ text-align: center;}
+strong{color:steelblue;}
+ul{
+    list-style-type: none;
+    margin:2em auto 0;
+    width:40vw;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    justify-content: flex-end;
+    margin:0;padding: 0;
+}
+label{padding: 0.3em;}
+input[type="text"]{
+    flex:2;
+}
+button{
+    width:10vw;
+    padding:0.5em;
+    border:1px solid black;
+    margin:1em;
+    box-shadow: 2px 2px 1px grey;
+    background-color:skyblue;
+    text-align: center;
+}
+button:hover{
+    background-color:steelblue;
+    box-shadow: 3px 3px 1.5px grey;
+}
+p{text-align: center;}

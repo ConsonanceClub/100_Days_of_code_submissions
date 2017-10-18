@@ -32,3 +32,43 @@ Check if the string entered by a user is a palindrome. That is that it reads the
 ### *Day 5: Count Vowels*
 
 Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found in a long text.
+
+### *Day 6: Count Letters in a Speech*
+
+Attached is a text file containing the farewell speech of Barack Obama. The function should read content from the file, count and record all letters of the alphabet present. Output should be like => a: 20, b: 10, ...z: 5. It should also be case insensitive i.e 'a' == 'A'.
+Link for the text file => http://bit.ly/2yB3keV
+
+### *Day 7: Ordered words*
+
+An ordered word is a word in which the letters appear in
+alphabetic order. Take the user input, and order the letters in the word or
+sentence alphabetically.
+
+### *Day 8: Alarm Clock*
+
+Alarm Clock - Build a simple clock where it plays a sound after X number of minutes/seconds or at a particular time set.
+
+### *Day 9: Alarm Clock Extended*
+
+Alarm Clock Extended - complete the alarm clock challenge if you haven't .......If you have, try and assist at least two people on the slack team to do so
+
+### *Day 10: Calculator*
+
+Calculator - A simple calculator to do basic operators(addition, subtraction, division, multiplication). Make it a scientific calculator(sin, cos, etc) for added complexity.
+
+### *Day 11: GPA Calculator*
+
+GPA Calculator: Get the courses, units and scores from a user and determine the GPA
+using a 5 point grade system.
+
+### *Day 12: GPA Calculator*
+
+GPA Calculator: Finish up GPA calculator, help other team mates having issues building theirs
+
+### *Day 13: Temperature converter*
+
+Temperature converter - Program should convert temperature in degree Celsius to Fahrenheit and vice versa.
+
+### *Day 14: Random Quote Machine*
+
+Random Quote Machine - Program should print out quotes that have been stored randomly. You don't need to use any API. Store some quotes in your program and print one at random each time the program executes.

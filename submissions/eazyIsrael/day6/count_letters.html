@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>alphabeths counter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h2>Alphabeths Counter</h2>
+<form>
+    <ul>
+        <li><input type="text" value="" id="word"></li>
+        <li><button id="button" type="button">Check</button></li>
+    </ul>
+</form>
+
+<p id="result"></p>
+<script type="text/javascript">
+window.onload= init;
+
+function init(){
+    var button = document.getElementById("button");
+    button.onclick = vowelChecker;
+}
+
+function vowelChecker() {
+var textInput = document.getElementById('word');
+var values = textInput.value.toLowerCase();
+var alphabeths;
+
+var a = 0;
+var b = 0;
+var c = 0;
+var d = 0;
+var d = 0;
+var e = 0;
+var f = 0;
+var g = 0;
+var h = 0;
+var i = 0;
+var j = 0;
+var k = 0;
+var l = 0;
+var m = 0;
+var n = 0;
+var o = 0;
+var p = 0;
+var q = 0;
+var r = 0;
+var s = 0;
+var t = 0;
+var u = 0;
+var v = 0;
+var w = 0;
+var w = 0;
+var x = 0;
+var y = 0;
+var z = 0;
+
+    for (var I = 0; I < values.length; I++) {
+        if (values.charAt(I) == 'a') {
+            a++;
+        } else if (values.charAt(I) == 'b') {
+            b++;
+        } else if (values.charAt(I) == 'c') {
+            c++;
+        } else if (values.charAt(I) == 'd') {
+            d++;
+        } else if (values.charAt(I) == 'e') {
+            e++;
+        }else if (values.charAt(I) == 'f') {
+            f++;
+        } else if (values.charAt(I) == 'g') {
+            g++;
+        } else if (values.charAt(I) == 'h') {
+            h++;
+        } else if (values.charAt(I) == 'i') {
+            i++;
+        }else if (values.charAt(I) == 'j') {
+            j++;
+        } else if (values.charAt(I) == 'k') {
+            k++;
+        } else if (values.charAt(I) == 'l') {
+            l++;
+        } else if (values.charAt(I) == 'm') {
+            m++;
+        }else if (values.charAt(I) == 'n') {
+            n++;
+        } else if (values.charAt(I) == 'o') {
+            o++;
+        } else if (values.charAt(I) == 'p') {
+            p++;
+        } else if (values.charAt(I) == 'q') {
+            q++;
+        }else if (values.charAt(I) == 'u') {
+            u++;
+        } else if (values.charAt(I) == 'v') {
+            v++;
+        } else if (values.charAt(I) == 'w') {
+            w++;
+        } else if (values.charAt(I) == 'x') {
+            x++;
+        } else if (values.charAt(I) == 'y') {
+            y++;
+        } else if (values.charAt(I) == 'z') {
+            z++;
+        }
+
+    }
+var alphabethsFound = a+b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r+s+t+u+v+w+x+y+z;
+
+if (alphabethsFound ==1 ) {
+ alphabeths = "<p>"+values+"</p> contains <strong>"+alphabethsFound+"</strong> alphabeth.<br> a: "+a+", b:"+b+", c:"+c+", d:"+d+", e:"+e+", f:"+f+", g:"+g+", i:"+i+", j:"+j+", k:"+k+", l:"+l+", m:"+m+", n:"+n+", o"+o+", p:"+p+", q:"+q+", r:"+r+", s:"+s+", t:"+t+", u:"+u+", v:"+v+", w:"+w+", x:"+x+", y:"+y+", z:"+z;
+}else if(alphabethsFound >1){
+    alphabeths = values+" contains <strong>"+alphabethsFound+"</strong> alphabeths.<br> a: "+a+", b:"+b+", c:"+c+", d:"+d+", e:"+e+", f:"+f+", g:"+g+", i:"+i+", j:"+j+", k:"+k+", l:"+l+", m:"+m+", n:"+n+", o"+o+", p:"+p+", q:"+q+", r:"+r+", s:"+s+", t:"+t+", u:"+u+", v:"+v+", w:"+w+", x:"+x+", y:"+y+", z:"+z;
+}else {
+    alphabeths = "no alphabeth is inclusive in the word you entered";
+}
+
+var result = document.getElementById("result");
+result.innerHTML = alphabeths;
+}
+</script>
+</body>
+</html>

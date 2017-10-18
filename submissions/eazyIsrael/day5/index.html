@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>vowel checker</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h2>Vowel Checker</h2>
+<form>
+    <ul>
+        <li><input type="text" value="" id="word"></li>
+        <li><button id="button" type="button">Check</button></li>
+    </ul>
+</form>
+
+<p id="result"></p>
+<script type="text/javascript">
+window.onload= init;
+
+function init(){
+    var button = document.getElementById("button");
+    button.onclick = vowelChecker;
+}
+
+function vowelChecker() {
+var textInput = document.getElementById('word');
+var values = textInput.value.toUpperCase();
+var vowels;
+
+var A = 0;
+var E = 0;
+var I = 0;
+var O = 0;
+var U = 0;
+
+    for (var i = 0; i < values.length; i++) {
+        if (values.charAt(i) == 'A') {
+            A++;
+        } else if (values.charAt(i) == 'E') {
+            E++;
+        } else if (values.charAt(i) == 'I') {
+            I++;
+        } else if (values.charAt(i) == 'O') {
+            O++;
+        } else if (values.charAt(i) == 'U') {
+            U++;
+        }
+
+    }
+var vowelFound = A+E+I+O+U;
+
+if (vowelFound==1) {
+ vowels = values+" contains <strong>"+vowelFound+"</strong> vowel.<br> A = "+A+", E="+E+", I="+I+", O="+O+", U="+U;
+}else if (vowelFound>1) {
+ vowels = values+" contains <strong>"+vowelFound+"</strong> vowels.<br> A = "+A+", E="+E+", I="+I+", O="+O+", U="+U;
+}else {
+    vowels = "no vowel is inclusive in the word you entered";
+}
+
+var result = document.getElementById("result");
+result.innerHTML = vowels;
+}
+</script>
+</body>
+</html>
