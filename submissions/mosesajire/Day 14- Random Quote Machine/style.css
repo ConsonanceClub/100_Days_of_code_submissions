@@ -30,15 +30,6 @@ body {
     color: green;
     font-family: georgia, serif;
 }
-.form {
-    padding: 10px;
-}
-.button {
-    font-size: 16px;
-    margin: 10px;
-    float: left;
-    position: relative;
-}
 .refresh {
     text-decoration: none;
     font-weight: bold;
