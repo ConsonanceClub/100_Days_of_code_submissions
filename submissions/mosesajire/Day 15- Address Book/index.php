@@ -16,7 +16,7 @@
        <marquee> Welcome to the Address Book. </marquee>
         </p>
         <!-- Display the Input Form by default -->
-        <h2 class="title">ADD CONTACT</h2>
+        <h2 class="title">ADD CONTACT INFORMATION</h2>
             <form action="index.php" method="post" class="form">
             <table>
                 <tr>
