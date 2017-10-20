@@ -82,3 +82,7 @@ Address Book - Create a program that prompts the user for the information in mos
 Password generator: Create a password generation program which will generate passwords
 containing random ASCII characters from the following groups: lower-case letters, upper-case
 letters. For added complexity add special characters like "*?^&%$#@+=".
+
+### *Day 17: Mail app*
+
+Mail App - Make an application that takes in the necessary data(recipient email address, sender's email address, message) for sending a mail and sends it!
