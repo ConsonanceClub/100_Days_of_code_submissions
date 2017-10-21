@@ -50,7 +50,7 @@
         <?php                   
         // Obtain the user's input.
             if (isset($_POST['submit'])) {
-                 if (!empty($_POST['sender']) && !empty($_POST['receiver']) && !empty($_POST['topic']) && !empty($_POST['message'])) {
+                 if (!empty($_POST['sender']) && !empty($_POST['receiver']) && !empty($_POST['topic']) && !empty($_POST['message']) && strchr($_POST['sender'], '@') && strchr($_POST['receiver'], '@') && strchr($_POST['sender'], '.') && strchr($_POST['receiver'], '.')) {
                     $sender = "From: ";
                     $sender .= htmlentities($_POST['sender']);
                     $receiver = htmlentities($_POST['receiver']);
@@ -70,7 +70,7 @@
                 else {
                     // If the textfields are empty, display this:
                     echo "<h2 class='title'><b>NOTIFICATION</b></h2>";
-                    echo "Dear User, you need to fill out all the fields.<br>Please try again.<br>Thank you.";
+                    echo "Dear User, you need to fill out all the fields correctly.<br>Please try again.<br>Thank you.";
                 }           
             }
             ?>
