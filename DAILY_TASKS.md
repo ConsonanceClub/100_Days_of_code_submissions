@@ -72,3 +72,17 @@ Temperature converter - Program should convert temperature in degree Celsius to 
 ### *Day 14: Random Quote Machine*
 
 Random Quote Machine - Program should print out quotes that have been stored randomly. You don't need to use any API. Store some quotes in your program and print one at random each time the program executes.
+
+### *Day 15: Address Book*
+
+Address Book - Create a program that prompts the user for the information in most address books (Contact name and phone number) and then stores it in a .txt file! The program should also display the contacts that have been stored in the text file
+
+### *Day 16: Password generator*
+
+Password generator: Create a password generation program which will generate passwords
+containing random ASCII characters from the following groups: lower-case letters, upper-case
+letters. For added complexity add special characters like "*?^&%$#@+=".
+
+### *Day 17: Mail app*
+
+Mail App - Make an application that takes in the necessary data(recipient email address, sender's email address, message) for sending a mail and sends it!
