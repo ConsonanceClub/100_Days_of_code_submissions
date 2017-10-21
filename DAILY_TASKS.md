@@ -55,3 +55,20 @@ Alarm Clock Extended - complete the alarm clock challenge if you haven't .......
 ### *Day 10: Calculator*
 
 Calculator - A simple calculator to do basic operators(addition, subtraction, division, multiplication). Make it a scientific calculator(sin, cos, etc) for added complexity.
+
+### *Day 11: GPA Calculator*
+
+GPA Calculator: Get the courses, units and scores from a user and determine the GPA
+using a 5 point grade system.
+
+### *Day 12: GPA Calculator*
+
+GPA Calculator: Finish up GPA calculator, help other team mates having issues building theirs
+
+### *Day 13: Temperature converter*
+
+Temperature converter - Program should convert temperature in degree Celsius to Fahrenheit and vice versa.
+
+### *Day 14: Random Quote Machine*
+
+Random Quote Machine - Program should print out quotes that have been stored randomly. You don't need to use any API. Store some quotes in your program and print one at random each time the program executes.
