@@ -86,3 +86,7 @@ letters. For added complexity add special characters like "*?^&%$#@+=".
 ### *Day 17: Mail app*
 
 Mail App - Make an application that takes in the necessary data(recipient email address, sender's email address, message) for sending a mail and sends it!
+
+### *Day 18: Hello GUI!*
+
+Hello GUI - Get familiar with how GUI apps are made with your preferred programming language. Play with common UI components such as buttons, text boxes, labels, etc. Make a GUI app that displays "Hello GUI" once launched.
