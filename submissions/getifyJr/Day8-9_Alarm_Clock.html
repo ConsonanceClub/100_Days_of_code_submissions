@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>-- Alarm Clock ---</title>
+  </head>
+  <script>
+    function alarmSet(){
+      var alarmTime = Date.parse(document.getElementById("date").value);
+      if(alarmTime > 0){
+        setInterval(function(){
+          if(Date.now() > alarmTime){
+            document.getElementById("audio").play();
+          }
+        },100);
+      }else{
+        alert("Enter the Time.");
+      }
+    }
+  </script>
+  <body>
+    <audio id="audio">
+      <source src="https://github.com/KirankumarAmbati/100_Days_of_code_submissions/blob/master/submissions/getifyJr/Alarm.mp3" type="audio/mpeg">
+    </audio>
+    <input type="datetime-local" id="date">
+    <button type="button" onclick="alarmSet()">Set Alarm</button>
+  </body>
+</html>
