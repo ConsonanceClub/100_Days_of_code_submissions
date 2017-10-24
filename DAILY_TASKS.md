@@ -91,6 +91,15 @@ Mail App - Make an application that takes in the necessary data(recipient email 
 
 Hello GUI - Get familiar with how GUI apps are made with your preferred programming language. Play with common UI components such as buttons, text boxes, labels, etc. Make a GUI app that displays "Hello GUI" once launched.
 
-### *Day 19: (Temperature Converter)++ *
+### *Day 19: (Temperature Converter)++*
 
 (Temperature Converter)++ - Build a GUI version of the temperature converter built on Day 13. Time to test your GUI skills!!!
+
+### *Day 20: Quiz Maker*:
+
+Quiz Maker - Make an application which takes various questions from a file, picked randomly, and puts together a quiz for students and grades them.
+
+
+### *Day 21: Calculator GUI*
+
+Calculator GUI - Build a GUI version of the calculator built on Day 10. Try and give it a nice UI.
