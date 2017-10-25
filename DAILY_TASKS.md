@@ -103,3 +103,7 @@ Quiz Maker - Make an application which takes various questions from a file, pick
 ### *Day 21: Calculator GUI*
 
 Calculator GUI - Build a GUI version of the calculator built on Day 10. Try and give it a nice UI.
+
+### *Day 22: Address Book GUI*
+
+Address Book GUI - Build a GUI version of the address book built on Day 15. Try storing more information like contact email address, birthday.
