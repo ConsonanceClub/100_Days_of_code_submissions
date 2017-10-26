@@ -107,3 +107,7 @@ Calculator GUI - Build a GUI version of the calculator built on Day 10. Try and 
 ### *Day 22: Address Book GUI*
 
 Address Book GUI - Build a GUI version of the address book built on Day 15. Try storing more information like contact email address, birthday.
+
+### *Day 23: Password Generator GUI*
+
+Password Generator GUI - Build a GUI version of the Password Generator built on Day 16. The apps should be able to generate easy, medium, hard passwords. For now the difficulty of the passwords should depend on the length i.e a hard password can have 10 characters, medium password 7 characters, easy password 4 characters....
