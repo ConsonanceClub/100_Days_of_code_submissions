@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Count the Vowels !!!</title>
+    <script type="text/javascript">
+    function fun(){
+      document.getElementById("countTheVowels").addEventListener("click", countTheVowels);
+    }
+
+    function countTheVowels(){
+      var word=document.getElementById("word").value;
+      console.log(word);
+      var count={
+        a:0,
+        e:0,
+        i:0,
+        o:0,
+        u:0
+      }
+
+      for(var i = 0; i<word.length;i++){
+        console.log(i+" "+word[i]);
+        switch (true){
+          case word[i]=="a":count["a"]++;break;
+          case word[i]=="e":count["e"]++;break;
+          case word[i]=="i":count["i"]++;break;
+          case word[i]=="o":count["o"]++;break;
+          case word[i]=="u":count["u"]++;break;
+        }
+      }
+      console.log(count["e"]);
+      var a=count["a"];
+      var e=count["e"];
+      var i=count["i"];
+      var o=count["o"];
+      var u=count["u"];
+
+      document.getElementById("message").innerHTML="Total Vowels are " + (a+e+i+o+u) + "<br /> Of which: <br/> 'a': " + a +"<br/>'e': " + e + "<br/>'i': " + i +"<br/>'o': " + o +"<br/>'u': " + u;
+
+    }
+    </script>
+  </head>
+  <body onload="fun()">
+    <input type="text" id="word">
+    <button type="button" id="countTheVowels">Count 'em !!</button>
+    <div id="message"></div>
+  </body>
+</html>
