@@ -115,3 +115,7 @@ Password Generator GUI - Build a GUI version of the Password Generator built on 
 ### *Day 24: Mail app GUI*
 
 Mail App GUI - Build a GUI version of the Mail App built on Day 17. Add more features like sending to multiple email addresses, adding a subject for the mail to be sent.   
+
+### *Day 25: Coin Flip Simulation* 
+
+Coin Flip Simulation - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
