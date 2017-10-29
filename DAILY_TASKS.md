@@ -119,3 +119,7 @@ Mail App GUI - Build a GUI version of the Mail App built on Day 17. Add more fea
 ### *Day 25: Coin Flip Simulation* 
 
 Coin Flip Simulation - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
+
+### *Day 26: Find Pi to the Nth Digit*
+
+Find Pi to the Nth Digit - Develop a program that has the user enter a number. Your program should print out Pi up to that many decimal places. Try to keep a limit as to how far the program will go.
