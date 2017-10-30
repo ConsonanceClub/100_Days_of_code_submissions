@@ -123,3 +123,7 @@ Coin Flip Simulation - Write some code that simulates flipping a single coin how
 ### *Day 26: Find Pi to the Nth Digit*
 
 Find Pi to the Nth Digit - Develop a program that has the user enter a number. Your program should print out Pi up to that many decimal places. Try to keep a limit as to how far the program will go.
+
+### *Day 27: APIs Intro*
+
+APIs Intro - Take out time to read about APIs and how they can be used with your programming language. Examples of APIs include Github API, Twitter's API, etc.
