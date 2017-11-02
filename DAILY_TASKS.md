@@ -130,3 +130,8 @@ Develop a program that calculate the monthly payments of a fixed term mortgage o
 
 *Bonus*
 _For added complexity, add an option for users to select the compounding interval (Monthly, Weekly, Daily, Continually)._
+
+
+### *Day 28-30: APIs Intro*
+
+*APIs Intro* - Take out time to read about APIs and how they can be used with your programming language. Examples of APIs include Github API, Twitter's API, etc.
