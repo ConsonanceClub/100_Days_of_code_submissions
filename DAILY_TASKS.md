@@ -115,3 +115,23 @@ Password Generator GUI - Build a GUI version of the Password Generator built on 
 ### *Day 24: Mail app GUI*
 
 Mail App GUI - Build a GUI version of the Mail App built on Day 17. Add more features like sending to multiple email addresses, adding a subject for the mail to be sent.   
+
+### *Day 25: Coin Flip Simulation* 
+
+Coin Flip Simulation - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
+
+### *Day 26: Find Pi to the Nth Digit*
+
+Find Pi to the Nth Digit - Develop a program that has the user enter a number. Your program should print out Pi up to that many decimal places. Try to keep a limit as to how far the program will go.
+
+### * Day 27 :  Mortgage Calculator *
+
+Develop a program that calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also, figure out how long it will take the user to pay back the loan.
+
+*Bonus*
+_For added complexity, add an option for users to select the compounding interval (Monthly, Weekly, Daily, Continually)._
+
+
+### *Day 28-30: APIs Intro*
+
+*APIs Intro* - Take out time to read about APIs and how they can be used with your programming language. Examples of APIs include Github API, Twitter's API, etc.
