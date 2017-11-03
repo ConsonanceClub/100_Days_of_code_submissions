@@ -4,9 +4,10 @@
 
 import time, subprocess
 
-timeLeft = 60
+countDownTime = input("Enter the count down time in seconds.")
+timeLeft = int(countDownTime)
 while timeLeft > 0:
-    print(timeLeft, end = '')
+    print(timeLeft, '\n')
     time.sleep(1)
     timeLeft = timeLeft - 1
 
