@@ -135,3 +135,7 @@ _For added complexity, add an option for users to select the compounding interva
 ### *Day 28-30: APIs Intro*
 
 *APIs Intro* - Take out time to read about APIs and how they can be used with your programming language. Examples of APIs include Github API, Twitter's API, etc.
+
+### *Day 31: Dog Images*
+
+*Dog Images* - It's time to try out our new found skills in working with APIs. Head over to https://dog.ceo/dog-api/ and go through their API docs. Build an app that returns a random image of a dog each time it is run. For added complexity, make a GUI app with a button. Each time the button is clicked, the image should be shown on the screen
