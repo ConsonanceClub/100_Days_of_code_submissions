@@ -143,3 +143,7 @@ _For added complexity, add an option for users to select the compounding interva
 ### *Day 32: (Dog Images)++*
 
 (Dog Images)++ - We worked with generating random images on Day 31. This time your app(GUI) should be able to return images based on the breed of dog entered by a user. 
+
+### *Day 33: Dictionary App*
+
+Dictionary App - We are still in our API series.This time we will work with an API that requires authentication(api keys). Build a dictionary app that takes in text from the user and returns the meaning of the text using the Oxford dictionaries API. Head over to => https://developer.oxforddictionaries.com/ , create an account and go through the API docs.
