@@ -147,3 +147,7 @@ _For added complexity, add an option for users to select the compounding interva
 ### *Day 33: Dictionary App*
 
 Dictionary App - We are still in our API series.This time we will work with an API that requires authentication(api keys). Build a dictionary app that takes in text from the user and returns the meaning of the text using the Oxford dictionaries API. Head over to => https://developer.oxforddictionaries.com/ , create an account and go through the API docs.
+
+### *Day 34: (Dictionary App)++*
+
+(Dictionary App)++ - This time you are to build upon the Dictionary App built on Day 33. Instead of just returning the meaning of words entered by the user, the app should also return synonyms and antonyms of the word. 
