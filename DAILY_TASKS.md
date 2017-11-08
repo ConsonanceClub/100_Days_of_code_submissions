@@ -91,6 +91,66 @@ Mail App - Make an application that takes in the necessary data(recipient email 
 
 Hello GUI - Get familiar with how GUI apps are made with your preferred programming language. Play with common UI components such as buttons, text boxes, labels, etc. Make a GUI app that displays "Hello GUI" once launched.
 
-### *Day 19: (Temperature Converter)++ *
+### *Day 19: (Temperature Converter)++*
 
 (Temperature Converter)++ - Build a GUI version of the temperature converter built on Day 13. Time to test your GUI skills!!!
+
+### *Day 20: Quiz Maker*:
+
+Quiz Maker - Make an application which takes various questions from a file, picked randomly, and puts together a quiz for students and grades them.
+
+
+### *Day 21: Calculator GUI*
+
+Calculator GUI - Build a GUI version of the calculator built on Day 10. Try and give it a nice UI.
+
+### *Day 22: Address Book GUI*
+
+Address Book GUI - Build a GUI version of the address book built on Day 15. Try storing more information like contact email address, birthday.
+
+### *Day 23: Password Generator GUI*
+
+Password Generator GUI - Build a GUI version of the Password Generator built on Day 16. The apps should be able to generate easy, medium, hard passwords. For now the difficulty of the passwords should depend on the length i.e a hard password can have 10 characters, medium password 7 characters, easy password 4 characters....
+
+### *Day 24: Mail app GUI*
+
+Mail App GUI - Build a GUI version of the Mail App built on Day 17. Add more features like sending to multiple email addresses, adding a subject for the mail to be sent.   
+
+### *Day 25: Coin Flip Simulation* 
+
+Coin Flip Simulation - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
+
+### *Day 26: Find Pi to the Nth Digit*
+
+Find Pi to the Nth Digit - Develop a program that has the user enter a number. Your program should print out Pi up to that many decimal places. Try to keep a limit as to how far the program will go.
+
+### * Day 27 :  Mortgage Calculator *
+
+Develop a program that calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also, figure out how long it will take the user to pay back the loan.
+
+*Bonus*
+_For added complexity, add an option for users to select the compounding interval (Monthly, Weekly, Daily, Continually)._
+
+
+### *Day 28-30: APIs Intro*
+
+*APIs Intro* - Take out time to read about APIs and how they can be used with your programming language. Examples of APIs include Github API, Twitter's API, etc.
+
+### *Day 31: Dog Images*
+
+*Dog Images* - It's time to try out our new found skills in working with APIs. Head over to https://dog.ceo/dog-api/ and go through their API docs. Build an app that returns a random image of a dog each time it is run. For added complexity, make a GUI app with a button. Each time the button is clicked, the image should be shown on the screen
+
+### *Day 32: (Dog Images)++*
+
+(Dog Images)++ - We worked with generating random images on Day 31. This time your app(GUI) should be able to return images based on the breed of dog entered by a user. 
+
+### *Day 33: Dictionary App*
+
+Dictionary App - We are still in our API series.This time we will work with an API that requires authentication(api keys). Build a dictionary app that takes in text from the user and returns the meaning of the text using the Oxford dictionaries API. Head over to => https://developer.oxforddictionaries.com/ , create an account and go through the API docs.
+
+### *Day 34: (Dictionary App)++*
+
+(Dictionary App)++ - This time you are to build upon the Dictionary App built on Day 33. Instead of just returning the meaning of words entered by the user, the app should also return synonyms and antonyms of the word. 
+
+### *Day 35: Chuck Norris Jokes*
+*Chuck Norris Jokes* - Your app should display a random Chuck Norris joke once prompted by the user. Go through the api documentation => http://www.icndb.com/api/
