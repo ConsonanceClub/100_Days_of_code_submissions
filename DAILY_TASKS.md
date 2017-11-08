@@ -153,4 +153,4 @@ Dictionary App - We are still in our API series.This time we will work with an A
 (Dictionary App)++ - This time you are to build upon the Dictionary App built on Day 33. Instead of just returning the meaning of words entered by the user, the app should also return synonyms and antonyms of the word. 
 
 ### *Day 35: Chuck Norris Jokes*
-*Chuck Norris Jokes* - Your app should display a random Chuck Norris jokes once prompted by the user. Go through the api documentation => http://www.icndb.com/api/
+*Chuck Norris Jokes* - Your app should display a random Chuck Norris joke once prompted by the user. Go through the api documentation => http://www.icndb.com/api/
