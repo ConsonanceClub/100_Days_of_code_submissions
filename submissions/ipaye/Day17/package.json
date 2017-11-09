@@ -1,0 +1,15 @@
+{
+  "name": "day17",
+  "version": "1.0.0",
+  "description": "email solution",
+  "main": "mailer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ipaye Alameen <Akinkunmi007@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "nodemailer": "^4.2.0"
+  }
+}
