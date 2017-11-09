@@ -154,3 +154,11 @@ Dictionary App - We are still in our API series.This time we will work with an A
 
 ### *Day 35: Chuck Norris Jokes*
 *Chuck Norris Jokes* - Your app should display a random Chuck Norris joke once prompted by the user. Go through the api documentation => http://www.icndb.com/api/
+
+### *Day 36: Get gifs by text entered*
+
+Create an app that  returns gifs based on the text the user enters..... Using the GIPHY API
+https://developers.giphy.com/docs/
+
+### *Day 37: Country data*
+*Country data* - Your app should display tthe details of the country entered by the user. This should include the country's name, population, area, calling code, currency and image of flag. Checkout the docs @ https://restcountries.eu/
