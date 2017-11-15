@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kill the Emoji</title>
+</head>
+
+<style>
+  body {
+    padding: 200px;
+    background-color: blueviolet;
+  }
+  button {
+    padding: 6px;
+  }
+
+  h2 {
+    text-align: center;
+    padding-bottom: 50px;
+    margin: 0px auto;
+  }
+
+  #happy {
+    width: 200px;
+    height: 200px;
+    margin: 0px auto;
+    background: url(./Hugging_Emoji_icon.png) no-repeat;
+    background-size: 80%;
+  }
+
+  #health {
+    width: 200px;
+    margin: 0px auto;
+    border: 2px solid black;
+    margin: 0px auto 20px auto;
+  }
+
+  #health div {
+    height: 20px;
+    background-color: crimson;
+  }
+
+  #happy.cry {
+    background: url(./Crying_Emoji_icon_2.png) no-repeat;
+    background-size: 80%;
+  }
+
+.cry {
+ background-color: red;
+}
+
+  #controls {
+    width: 120px;
+    margin: 0px auto;
+    padding-top: 10px;
+  }
+</style>
+
+<body>
+  <h2>Kill the Emoji</h2>
+  <div id="app" >
+
+    <!-- Bag Image -->
+    <div id="happy" v-bind:class="{ cry : ended }">
+
+    </div>
+
+    <!-- Health -->
+    <div id="health">
+      <div v-bind:style="{ width : health + '%' }"></div>
+    </div>
+
+    <!-- controls -->
+    <div id="controls">
+      <button v-show="!ended" v-on:click="reduceHealth">Kill</button>
+      <button v-on:click="restart">Restart</button>
+    </div>
+
+  </div>
+
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        health: 100,
+        ended: false
+      },
+      methods: {
+        reduceHealth() {
+          this.health -= 10;
+          console.log(this.health);
+          if (this.health <= 0) {
+            this.ended = true;
+          }
+        },
+        restart() {
+          this.health = 100;
+          this.ended = false;
+        }
+      }
+    })
+  </script>
+
+</body>
+
+</html>

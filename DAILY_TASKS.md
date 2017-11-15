@@ -135,3 +135,30 @@ _For added complexity, add an option for users to select the compounding interva
 ### *Day 28-30: APIs Intro*
 
 *APIs Intro* - Take out time to read about APIs and how they can be used with your programming language. Examples of APIs include Github API, Twitter's API, etc.
+
+### *Day 31: Dog Images*
+
+*Dog Images* - It's time to try out our new found skills in working with APIs. Head over to https://dog.ceo/dog-api/ and go through their API docs. Build an app that returns a random image of a dog each time it is run. For added complexity, make a GUI app with a button. Each time the button is clicked, the image should be shown on the screen
+
+### *Day 32: (Dog Images)++*
+
+(Dog Images)++ - We worked with generating random images on Day 31. This time your app(GUI) should be able to return images based on the breed of dog entered by a user. 
+
+### *Day 33: Dictionary App*
+
+Dictionary App - We are still in our API series.This time we will work with an API that requires authentication(api keys). Build a dictionary app that takes in text from the user and returns the meaning of the text using the Oxford dictionaries API. Head over to => https://developer.oxforddictionaries.com/ , create an account and go through the API docs.
+
+### *Day 34: (Dictionary App)++*
+
+(Dictionary App)++ - This time you are to build upon the Dictionary App built on Day 33. Instead of just returning the meaning of words entered by the user, the app should also return synonyms and antonyms of the word. 
+
+### *Day 35: Chuck Norris Jokes*
+*Chuck Norris Jokes* - Your app should display a random Chuck Norris joke once prompted by the user. Go through the api documentation => http://www.icndb.com/api/
+
+### *Day 36: Get gifs by text entered*
+
+Create an app that  returns gifs based on the text the user enters..... Using the GIPHY API
+https://developers.giphy.com/docs/
+
+### *Day 37: Country data*
+*Country data* - Your app should display tthe details of the country entered by the user. This should include the country's name, population, area, calling code, currency and image of flag. Checkout the docs @ https://restcountries.eu/
