@@ -162,3 +162,4 @@ https://developers.giphy.com/docs/
 
 ### *Day 37: Country data*
 *Country data* - Your app should display tthe details of the country entered by the user. This should include the country's name, population, area, calling code, currency and image of flag. Checkout the docs @ https://restcountries.eu/
+>>>>>>> upstream/master
