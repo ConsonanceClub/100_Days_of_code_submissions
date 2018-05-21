@@ -19,4 +19,3 @@ with open('speech_Obama.txt') as speech:
 for char in 'abcdefghijklmnopqrstuvwxyz':
     char_count = count_char(text, char)
     print("{0} : {1}".format(char, char_count))
-
