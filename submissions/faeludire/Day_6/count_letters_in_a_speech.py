@@ -6,13 +6,17 @@
 #Is is not case sensistive i.e 'a' == 'A'.
 #Link for the text file => http://bit.ly/2yB3keV
 
+def count_char(text, char):
+    count = 0
+    for c in text:
+        if c == char:
+            count = count + 1
+    return count
 
-from collections import Counter
+with open('speech_Obama.txt') as speech:
+    text = speech.read()
 
-file = open('farewell_speech_Obama.txt', 'r')
-speech = file.read()
-file.close()
-
-lowerCaseVersion = str.lower(speech)
-print(lowerCaseVersion)
-convertedListString = list(lowerCaseVersion)
+for char in 'abcdefghijklmnopqrstuvwxyz':
+    char_count = count_char(text, char)
+    print("{0} : {1}".format(char, char_count))
+>>>>>>> upstream/master

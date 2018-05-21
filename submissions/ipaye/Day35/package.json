@@ -1,0 +1,14 @@
+{
+  "name": "day35",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chucknorris.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ipaye Alameen <Akinkunmi007@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}
